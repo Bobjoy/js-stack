@@ -6,10 +6,20 @@
     "author": "bobjoy <bobjoy1010@163.com>",
     "license": "MIT",
     "scripts": {
-        "start": "node .",
+        "start": "gulp",
         "tutorial-test": "yarn start"
     },
-    "dependencies": {
-        "color": "^1.0.3"
+    "dependencies": {},
+    "devDependencies": {
+        "babel-preset-latest": "^6.16.0",
+        "del": "^2.2.2",
+        "gulp": "^3.9.1",
+        "gulp-babel": "^6.1.2"
+    },
+
+    "babel": {
+        "presets": [
+            "latest"
+        ]
     }
 }
