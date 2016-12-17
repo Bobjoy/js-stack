@@ -1,3 +1,5 @@
-const str = 'ES2015';
+const Dog = require('./dog');
 
-console.log(`Study ${str}`);
+const toby = new Dog('Toby');
+
+console.log(toby.bark());
