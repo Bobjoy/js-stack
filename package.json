@@ -5,9 +5,11 @@
     "repository": "https://github.com/bobjoy/js-stack.git",
     "author": "bobjoy <bobjoy1010@163.com>",
     "license": "MIT",
-
     "scripts": {
         "start": "node .",
         "tutorial-test": "yarn start"
+    },
+    "dependencies": {
+        "color": "^1.0.3"
     }
 }
