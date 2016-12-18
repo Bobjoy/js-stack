@@ -25,6 +25,6 @@ Yarn 生成了一个 `yarn.lock` 文件，它应该被提交到 git 仓库，确
 
 **注意**：有两种包依赖关系， `"dependencies"` 和 `"devDependencies"`。`"dependencies"` 更通用，而 `"devDependencies"` 是只在开发阶段使用的包（比如构建工具，代码检查工具等）。执行 `yarn add --dev [package]` 可以把包添加到 `"devDependencies"` 中。
 
-下一章：[3 - 使用 Babel 和 Gulp 配置 ES6 开发环境](/tutorial/3-es6-babel-gulp)
+下一章：[3 - 使用 Babel 和 Gulp 配置 ES6 开发环境](https://github.com/Bobjoy/js-stack/tree/03-es6-babel-gulp)
 
-回到[上一章](/tutorial/1-node-npm-yarn-package-json)或[目录](https://github.com/pd4d10/js-stack-from-scratch#目录)
+回到[上一章](https://github.com/Bobjoy/js-stack/tree/01-node-npm-yarn-package-json)或[目录](https://github.com/Bobjoy/js-stack)
