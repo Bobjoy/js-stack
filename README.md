@@ -51,4 +51,4 @@ yarn-error.log
 
 下一章：[2 - 包的安装与使用](https://github.com/Bobjoy/js-stack/tree/02-packages)
 
-回到[目录](/)
+回到[目录](https://github.com/Bobjoy/js-stack)
