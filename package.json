@@ -6,6 +6,7 @@
   "author": "bobjoy <bobjoy1010@163.com>",
   "license": "MIT",
   "scripts": {
+    "test": "gulp test",
     "start": "gulp",
     "tutorial-test": "yarn start"
   },
@@ -16,12 +17,14 @@
     "react-dom": "^15.4.1",
     "react-redux": "^5.0.1",
     "redux": "^3.6.0",
-    "redux-actions": "^1.2.0"
+    "redux-actions": "^1.2.0",
+    "redux-immutable": "^3.0.9"
   },
   "devDependencies": {
     "babel-loader": "^6.2.10",
     "babel-preset-latest": "^6.16.0",
     "babel-preset-react": "^6.16.0",
+    "chai": "^3.5.0",
     "del": "^2.2.2",
     "eslint": "^3.12.2",
     "eslint-config-airbnb": "^13.0.0",
@@ -31,6 +34,10 @@
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-eslint": "^3.0.1",
+    "gulp-mocha": "^3.0.1",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.6",
+    "sinon-chai": "^2.8.0",
     "webpack-stream": "^3.2.0"
   },
   "babel": {
