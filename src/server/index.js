@@ -1,3 +1,5 @@
+// @flow
+
 /* eslint-disable no-console */
 
 import Cat from '../shared/dog';

@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "babel-polyfill": "^6.20.0",
+    "gulp-flowtype": "^1.0.0",
     "immutable": "^3.8.1",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
@@ -21,13 +22,16 @@
     "redux-immutable": "^3.0.9"
   },
   "devDependencies": {
+    "babel-eslint": "^7.1.1",
     "babel-loader": "^6.2.10",
+    "babel-preset-flow": "^1.0.0",
     "babel-preset-latest": "^6.16.0",
     "babel-preset-react": "^6.16.0",
     "chai": "^3.5.0",
     "del": "^2.2.2",
     "eslint": "^3.12.2",
     "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-flowtype": "^2.29.1",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "2.2.3",
     "eslint-plugin-react": "^6.8.0",
@@ -43,17 +47,22 @@
   "babel": {
     "presets": [
       "latest",
-      "react"
+      "react",
+      "flow"
     ]
   },
   "eslintConfig": {
     "env": {
       "browser": true
     },
-    "extends": "airbnb",
-    "plugins": [
-      "import"
+    "extends": [
+      "airbnb"
     ],
+    "plugins": [
+      "import",
+      "flowtype"
+    ],
+    "parser": "babel-eslint",
     "rules": {
       "comma-dangle": [
         2,
