@@ -49,6 +49,6 @@ yarn-error.log
 
 **注意**：你可能注意到每章的 `package.json` 文件都有一个 `tutorial-test` 脚本。这些脚本是用于测试的，确保 `yarn && yarn start` 运行正确。你可以在自己的项目中删除它们。
 
-下一章：[2 - 包的安装与使用](../tree/2-packages)
+下一章：[2 - 包的安装与使用](https://github.com/Bobjoy/js-stack/tree/02-packages)
 
 回到[目录](/)
