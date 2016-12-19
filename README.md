@@ -186,6 +186,6 @@ gulp.task('clean', () => del([
 
 - 将 `/dist/client-bundle.js*` 添加到 `.gitignore` 文件。
 
-下一章：[8 - React](/tutorial/8-react)
+下一章：[8 - React](https://github.com/bobjoy/js-stack/tree/08-react)
 
-返回[上一节](/tutorial/6-eslint)或[目录](https://github.com/pd4d10/js-stack-from-scratch#目录)
+返回[上一节](https://github.com/bobjoy/js-stack/tree/06-eslint)
