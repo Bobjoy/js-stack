@@ -105,4 +105,4 @@ import * as Immutable from 'immutable';
 
 现在，你的代码已经通过了代码检查，类型检查和测试的考验了，好样的！
 
-回到[上一章](/tutorial/11-testing-mocha-chai-sinon)或[目录](https://github.com/pd4d10/js-stack-from-scratch#目录)
+回到[上一章](https://github.com/bobjoy/js-stack/tree/11-testing-mocha-chai-sinon)
