@@ -44,6 +44,6 @@ import { exec } from 'child_process';
 
 - `yarn start` 还是会打印 "Wah wah, I am Toby"
 
-下一章：[6 - 代码检查工具 ESLint](/tutorial/6-eslint)
+下一章：[6 - 代码检查工具 ESLint](https://github.com/bobjoy/js-stack/tree/06-eslint)
 
-回到[上一章](/tutorial/4-es6-syntax-class)或[目录](https://github.com/pd4d10/js-stack-from-scratch#目录)
+回到[上一章](https://github.com/bobjoy/js-stack/tree/04-es6-syntax-class)
