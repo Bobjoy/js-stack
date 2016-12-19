@@ -156,6 +156,6 @@ export default connect(mapStateToProps)(Message);
 
 译者注：本章概念比较多，可能不太容易理解，如果你希望深入地学习 Redux，请查看 [Redux 中文文档](http://cn.redux.js.org/)
 
-下一章：[10 - Immutable JS 和 Redux 的改进方法](/tutorial/10-immutable-redux-improvements)
+下一章：[10 - Immutable JS 和 Redux 的改进方法](https://github.com/bobjoy/js-stack/tree/10-immutable-redux-improvements)
 
-回到[上一章](/tutorial/8-react)或[目录](https://github.com/pd4d10/js-stack-from-scratch#目录)
+回到[上一章](https://github.com/bobjoy/js-stack/tree/08-react)
