@@ -113,6 +113,6 @@ gulp.task('build', ['lint', 'clean'], () =>
 
 **注意**：本章我们学习了如何在终端中配置 ESLint。在代码构建期间，提交之前就发现潜在的错误是一个很好的功能，你可能希望将这个功能集成到 IDE 里。**不要**使用 IDE 默认的 ESLint 配置，你需要额外配置一下让 IDE 使用 `node_modules` 下的 ESLint 命令（一般是 `node_modules/.bin/eslint`）。这样才会使用我们自己定义的配置。
 
-下一章：[7 - 前端打包工具 Webpack](/tutorial/7-client-webpack)
+下一章：[7 - 前端打包工具 Webpack](https://github.com/bobjoy/js-stack/tree/07-client-webpack)
 
-回到[上一章](/tutorial/5-es6-modules-syntax)或[目录](https://github.com/pd4d10/js-stack-from-scratch#目录)
+回到[上一章](https://github.com/bobjoy/js-stack/tree/05-es6-modules-syntax)
