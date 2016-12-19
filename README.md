@@ -35,6 +35,6 @@ console.log(toby.bark());
 - 运行 `yarn start` ，将打印  'Wah wah, I am Toby'。
 - 看一下 `lib` 中编译后的文件长什么样（`const` 都被 `var` 替换了）。
 
-下一章：[5 - ES6 模块系统](/tutorial/5-es6-modules-syntax)
+下一章：[5 - ES6 模块系统](https://github.com/bobjoy/js-stack/tree/05-es6-modules-syntax)
 
-回到[上一章](/tutorial/3-es6-babel-gulp)或[目录](https://github.com/pd4d10/js-stack-from-scratch#目录)
+回到[上一章](https://github.com/bobjoy/js-stack/tree/03-es6-babel-gulp)
