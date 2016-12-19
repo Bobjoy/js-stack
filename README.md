@@ -153,6 +153,6 @@ describe('Shared', () => {
 
 如果一切顺利，目前应该有两个 “pass” 的测试用例了。
 
-下一章：[12 - 使用 Flow 进行类型检查](/tutorial/12-flow)
+下一章：[12 - 使用 Flow 进行类型检查](https://github.com/bobjoy/js-stack/tree/12-flow)
 
-回到[上一章](/tutorial/10-immutable-redux-improvements)或[目录](https://github.com/pd4d10/js-stack-from-scratch#目录)
+回到[上一章](https://github.com/bobjoy/js-stack/tree/10-immutable-redux-improvements)
